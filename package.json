@@ -4,7 +4,7 @@
   "description": "Backend API for Inspire Inks - an AI-powered writing companion",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.js",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/server.js",
     "lint": "eslint src --ext .ts"
