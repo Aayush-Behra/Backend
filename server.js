@@ -1,7 +1,7 @@
-import app from "./app";
-import { env } from "./config/env";
-import { connectDatabase } from "./config/db";
-import { Persona, buildDefaultPersonas } from "./models/Persona";
+import app from "./src/app";
+import { env } from "./src/config/env";
+import { connectDatabase } from "./src/config/db";
+import { Persona, buildDefaultPersonas } from "./src/models/Persona";
 
 /** Seeds the two built-in personas once, if none exist yet. */
 async function seedDefaultPersonas() {
