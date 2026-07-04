@@ -1,4 +1,4 @@
-import app from "./src/app";
+import app from "./src/src/app";
 import { env } from "./src/config/env";
 import { connectDatabase } from "./src/config/db";
 import { Persona, buildDefaultPersonas } from "./src/models/Persona";
